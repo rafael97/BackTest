@@ -9,8 +9,8 @@ cd Back Test
 npm install	
 ```
 3) Ask for the file **.env** is provided by admin and *paste* this file in the folder Back Test
-4) Run in bash ``supervisor server.js``
-5) In your browser http://localhost:3000 and use anywhere route
+4) Run in bash ``node server.js``
+5) In your browser http://localhost:3000/api and use anywhere route
  **Get:** ``/providers``
   **Getbyid:** ``/provider/:id``
   **Update:** ``/provider/edit/:id``
